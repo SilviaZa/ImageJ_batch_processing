@@ -16,7 +16,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-//Macro Template For Batch Processing All Open TIFF Images
+//Macro Template For Batch Processing All TIFF Images In A Folder
 
 //get parameters from user
 #@ File (label="Input directory", style="directory") dir_in
@@ -25,44 +25,21 @@
 
 dir_in = dir_in+"\\"
 
-//Loop over the list of images in the directory. Everything between the {} after 'for' is excecuted on all images ending in "tif".
 filelist = getFileList(dir_in);
 len = lengthOf(filelist);
 
+//Loop over the list of images in the directory. Everything between the {} after 'for' is excecuted on all images ending in "tif".
 for (i = 0; i < len; i++) {
-
-
-	open(dir_in+"/"+filelist[i]);
-	title = getTitle();
-	
-	//INSERT RECORDED MACRO HERE
-	
-	run("Save");
-}
-
-
-
-
-
-
-
-
-
-list = getList("image.titles");
-
-setBatchMode("hide");
-
-//Loop over the list of open images. Everything between the {} after 'for' is excecuted on all open images.
-for (i = 0; i < lengthOf(list); i++) {
-	selectWindow(list[i]);
+	open(dir_in+filelist[i]);
 	title = getTitle();
 	if (endsWith(title, "tif")) {
         	
-	
+	//INSERT RECORDED MACRO HERE
 	
 	saveAs("Tiff", dir_out+"/"+prefix+title);
 	}
 }
-
+	
 run("Close All");
-print("Done. Great work today!");
+print("Done. Amazingly good");
+
