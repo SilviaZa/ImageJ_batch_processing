@@ -1,4 +1,4 @@
-//This template can be used to batch process all images in a firectory (i.e. a folder) (images should be in the .tif format).
+//This template can be used to batch process all images in a directory (i.e. a folder) (images should be in the .tif format).
 //Processed images are saved as .tif files in an output folder with a user defined pre-fix.
 //The program opens a user interface, in which the output directory and pre-fix can be defined before each run.
 //For more detailed information on how to batch process images in Fiji please refer to https://imagej.nih.gov/ij/docs/pdfs/ImageJBatchProcessing.pdf
