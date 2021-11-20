@@ -6,7 +6,7 @@ Processed images are saved as .tif files in an output folder with a user defined
 The program opens a user interface, in which the output directory and pre-fix can be defined before each run.
 For more detailed information on how to batch process images in Fiji, please refer to the following guide by Alex Herbert https://imagej.nih.gov/ij/docs/pdfs/ImageJBatchProcessing.pdf .
 
-How to:
+HOW TO:
    1. Paste one of the templates into the Fiji editor: Plugins>New>Macro
    2. Open an example image that you would like to process
    3. Start the ImageJ recorder: Plugins>Macros>Record
