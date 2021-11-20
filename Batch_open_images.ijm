@@ -13,8 +13,10 @@
 //6. Save the Macro 
 //7. Open all the images you want to process and run the macro on all of them using Plugins>Macros>Run... 
 
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+//Macro Template For Batch Processing All Open TIFF Images
 
 //get parameters from user
 #@ File (label="Output folder", style="directory") dir_out
@@ -28,11 +30,12 @@ setBatchMode("hide");
 for (i = 0; i < lengthOf(list); i++) {
 	selectWindow(list[i]);
 	title = getTitle();
-	
+	if (endsWith(title, "tif")) {
+        	
 	//INSERT RECORDED MACRO HERE
 	
 	saveAs("Tiff", dir_out+"/"+prefix+title);
-	
+	}
 }
 
 run("Close All");
