@@ -1,5 +1,5 @@
 # ImageJ_batch
-Template Macros for batch processing
+Template Macros for Batch Processing
 
 These templates can be used to batch process all images currently open in Fiji or that are in a directory (i.e. a folder). Note: (images should be in the .tif format).
 Processed images are saved as .tif files in an output folder with a user defined pre-fix.
