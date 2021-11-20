@@ -11,7 +11,7 @@ HOW TO:
    2. Open an example image that you would like to process
    3. Start the ImageJ recorder: Plugins>Macros>Record
    4. Process your example image
-   5. Copy-paste the recorded code into this template (do not copy lines which contain the image title and are therefore specific to your example image. 
+   5. Copy-paste the recorded code into the template in the editor (do not copy lines which contain the image title and are therefore specific to your example image. 
       The code should contain only general commands to be applied to all images.)
    6. Save the Macro 
    7. Run the macro using Plugins>Macros>Run... 
