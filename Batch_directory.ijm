@@ -28,6 +28,8 @@ dir_in = dir_in+"\\"
 filelist = getFileList(dir_in);
 len = lengthOf(filelist);
 
+setBatchMode("hide");
+
 //Loop over the list of images in the directory. Everything between the {} after 'for' is excecuted on all images ending in "tif".
 for (i = 0; i < len; i++) {
 	open(dir_in+filelist[i]);
