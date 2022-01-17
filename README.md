@@ -15,3 +15,36 @@ HOW TO:
       The code should contain only general commands to be applied to all images).
    6. Save the macro 
    7. Run the macro using Plugins>Macros>Run... 
+
+
+
+# Processing Incucyte images into a movie
+
+This macro works super well to take Incucyte images and align them into a respectable movie.
+To use it, I recommend exporting all the Incucyte images with the following name strucure:
+
+ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is used as the number of the image that was taken in the well)
+
+Here's a practical example: 
+R2_MDF_green_B2_1_00d00h00m.tif
+
+!!! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN !!!
+To install the plugin, 
+1. go to Help > Update in Fiji
+2. Click 'Manage update sites'
+3. Tick the box for 'PTBIOP'
+4. restart Fiji
+!!!     !!!   !!!   !!!  !!!   !!!  !!!!   !!!  !!!!   !!!   !!!  !!
+
+As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).
+input directory: Folder in which you stashed all the individual images taken by incucyte. 
+*Please have all images from all channels corresponding to the same movie in the same folder!*
+output directory: Folder in which you want the movie to be saved
+Replicate: ReplicateNumber (R2 in the example above)
+Cell type: CellType (MDF in the example above)
+Well: B2 in the example
+Position number: ImagePanel (1 in the example above) 
+Rolling background radius: this is for the green channel only and allows you to set the rolling ball radius manually
+
+
+ENJOY!
