@@ -32,10 +32,10 @@ R2_MDF_green_B2_1_00d00h00m.tif</p>
 <p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong>  <br>  
 (the heart of this macro that actually does all the work, credit to Dr. Nicolas Chiaruttini)<br>  
 To install the plugin:<br>
-1. go to Help > Update in Fiji<br>
+1. Go to Help > Update in Fiji<br>
 2. Click 'Manage update sites'<br>
 3. Tick the box for 'PTBIOP'<br>
-4. restart Fiji</p><br>
+4. Restart Fiji</p><br>
 <br>
 
 <p>As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
