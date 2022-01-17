@@ -20,24 +20,22 @@ HOW TO:
 
 # Processing Incucyte images into a movie
 
-This macro works super well to take Incucyte images and align them into a respectable movie.
-To use it, I recommend exporting all the Incucyte images with the following name strucure:
+<p>This macro works super well to take Incucyte images and align them into a respectable movie.
+To use it, I recommend exporting all the Incucyte images with the following name strucure:</p>
 
-ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is used as the number of the image that was taken in the well)
+<p>ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is used as the number of the image that was taken in the well)</p>
 
-Here's a practical example: 
-R2_MDF_green_B2_1_00d00h00m.tif
+<p>Here's a practical example: 
+R2_MDF_green_B2_1_00d00h00m.tif</p>
 
-<br><br>
-<strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> <br>  
+<p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> <br>  
 To install the plugin:
 1. go to Help > Update in Fiji
 2. Click 'Manage update sites'
 3. Tick the box for 'PTBIOP'
-4. restart Fiji
+4. restart Fiji</p>
    
-<br><br>
-As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
+<p>As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
 <b>*input directory:*</b>   Folder in which you stashed all the individual images taken by incucyte. 
 *Please have all images from all channels corresponding to the same movie in the same folder!* <br>
 <b>*output directory:*</b>   Folder in which you want the movie to be saved <br>
@@ -45,11 +43,11 @@ As USER INPUT you give information on the pattern of how your images are called 
 <b>*Cell type:*</b>    CellType <br>
 <b>*Well:*</b>   well<br>
 <b>*Position number:*</b>   ImagePanel <br>
-<b>*Rolling background radius:*</b>    this is for the green channel only and allows you to set the rolling ball radius manually<br>
+<b>*Rolling background radius:*</b>    this is for the green channel only and allows you to set the rolling ball radius manually</p>
 
-Example: <br>
+<p>Example: <br>
 <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
+</p>
 
 
-
-ENJOY!
+<p>ENJOY!</p>
