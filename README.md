@@ -23,7 +23,7 @@ HOW TO:
 <p>This macro works super well to take Incucyte images and align them into a respectable movie.
 To use it, I recommend exporting all the Incucyte images with the following name strucure:</p>
 
-<p>ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is used as the number of the image that was taken in the well)</p>
+<p>ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif&nbsp;&nbsp;(ImagePanel is used as the number of the image that was taken in the well)</p>
 
 <p><i>Here's a practical example:</i><br>
 R2_MDF_green_B2_1_00d00h00m.tif</p>
