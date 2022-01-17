@@ -29,12 +29,11 @@ Here's a practical example:
 R2_MDF_green_B2_1_00d00h00m.tif
 
 !!! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN !!!
-To install the plugin, 
+To install the plugin:
 1. go to Help > Update in Fiji
 2. Click 'Manage update sites'
 3. Tick the box for 'PTBIOP'
 4. restart Fiji
-!!!     !!!   !!!   !!!  !!!   !!!  !!!!   !!!  !!!!   !!!   !!!  !!
 
 As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).
 input directory: Folder in which you stashed all the individual images taken by incucyte. 
