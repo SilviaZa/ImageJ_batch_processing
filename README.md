@@ -29,7 +29,8 @@ To use it, I recommend exporting all the Incucyte images with the following name
 R2_MDF_green_B2_1_00d00h00m.tif</p>
 
 <br>
-<p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> (the heart of this macro that actually does all the work, credit to Dr. Nicolas Chiaruttini) <br>  
+<p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong>  <br>  
+(the heart of this macro that actually does all the work, credit to Dr. Nicolas Chiaruttini)<br>  
 To install the plugin:<br>
 1. go to Help > Update in Fiji<br>
 2. Click 'Manage update sites'<br>
