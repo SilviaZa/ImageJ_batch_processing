@@ -29,15 +29,14 @@ Here's a practical example:
 R2_MDF_green_B2_1_00d00h00m.tif
 
 
-<strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! <strong>
-   
-To install the plugin: <br>
+<strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! <strong> <br>  
+To install the plugin:
 1. go to Help > Update in Fiji
 2. Click 'Manage update sites'
 3. Tick the box for 'PTBIOP'
 4. restart Fiji
    
-
+<br><br>
 As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br>
 input directory: Folder in which you stashed all the individual images taken by incucyte. <br>
 *Please have all images from all channels corresponding to the same movie in the same folder!* <br>
