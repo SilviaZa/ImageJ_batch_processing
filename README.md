@@ -28,13 +28,15 @@ To use it, I recommend exporting all the Incucyte images with the following name
 <p>Here's a practical example: <br>
 R2_MDF_green_B2_1_00d00h00m.tif</p>
 
+<br><br>
 <p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> <br>  
-To install the plugin:
-1. go to Help > Update in Fiji
-2. Click 'Manage update sites'
-3. Tick the box for 'PTBIOP'
-4. restart Fiji</p>
-   
+To install the plugin:<br>
+1. go to Help > Update in Fiji<br>
+2. Click 'Manage update sites'<br>
+3. Tick the box for 'PTBIOP'<br>
+4. restart Fiji</p><br>
+<br><br>
+
 <p>As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
 <b><i>input directory:</i></b>&nbsp;&nbsp;Folder in which you stashed all the individual images taken by incucyte. 
 <i>Please have all images from all channels corresponding to the same movie in the same folder!</i> <br>
@@ -44,6 +46,7 @@ To install the plugin:
 <b><i>Well:</i></b>&nbsp;&nbsp;well<br>
 <b><i>Position number:</i></b>&nbsp;&nbsp;ImagePanel <br>
 <b><i>Rolling background radius:</i></b>&nbsp;&nbsp;this is for the green channel only and allows you to set the rolling ball radius manually</p>
+<br><br>
 
 <p>Example: <br>
 <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
