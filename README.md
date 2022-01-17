@@ -28,7 +28,7 @@ ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is u
 Here's a practical example: 
 R2_MDF_green_B2_1_00d00h00m.tif
 
-!!! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN !!!
+ <b> !!! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN !!!
 To install the plugin:
 1. go to Help > Update in Fiji
 2. Click 'Manage update sites'
@@ -45,7 +45,8 @@ Well: well
 Position number: ImagePanel 
 Rolling background radius: this is for the green channel only and allows you to set the rolling ball radius manually
 
-Example: <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
+Example: 
+<img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
 
 
 
