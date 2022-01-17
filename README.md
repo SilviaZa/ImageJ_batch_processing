@@ -28,7 +28,7 @@ ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is u
 Here's a practical example: 
 R2_MDF_green_B2_1_00d00h00m.tif
 
-
+<br><br>
 <strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! <strong> <br>  
 To install the plugin:
 1. go to Help > Update in Fiji
