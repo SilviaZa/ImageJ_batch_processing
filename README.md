@@ -39,11 +39,14 @@ As USER INPUT you give information on the pattern of how your images are called 
 input directory: Folder in which you stashed all the individual images taken by incucyte. 
 *Please have all images from all channels corresponding to the same movie in the same folder!*
 output directory: Folder in which you want the movie to be saved
-Replicate: ReplicateNumber (R2 in the example above)
-Cell type: CellType (MDF in the example above)
-Well: B2 in the example
-Position number: ImagePanel (1 in the example above) 
+Replicate: ReplicateNumber 
+Cell type: CellType 
+Well: well
+Position number: ImagePanel 
 Rolling background radius: this is for the green channel only and allows you to set the rolling ball radius manually
+
+Example: <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
+
 
 
 ENJOY!
