@@ -25,7 +25,7 @@ To use it, I recommend exporting all the Incucyte images with the following name
 
 <p>ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif  (ImagePanel is used as the number of the image that was taken in the well)</p>
 
-<p>Here's a practical example: 
+<p>Here's a practical example: <br>
 R2_MDF_green_B2_1_00d00h00m.tif</p>
 
 <p><strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> <br>  
@@ -36,14 +36,14 @@ To install the plugin:
 4. restart Fiji</p>
    
 <p>As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
-<b>*input directory:*</b>   Folder in which you stashed all the individual images taken by incucyte. 
-*Please have all images from all channels corresponding to the same movie in the same folder!* <br>
-<b>*output directory:*</b>   Folder in which you want the movie to be saved <br>
-<b>*Replicate:*</b>   ReplicateNumber <br>
-<b>*Cell type:*</b>    CellType <br>
-<b>*Well:*</b>   well<br>
-<b>*Position number:*</b>   ImagePanel <br>
-<b>*Rolling background radius:*</b>    this is for the green channel only and allows you to set the rolling ball radius manually</p>
+<b><i>input directory:</i></b>&nbsp;&nbsp;Folder in which you stashed all the individual images taken by incucyte. 
+<i>Please have all images from all channels corresponding to the same movie in the same folder!</i> <br>
+<b><i>output directory:</i></b>&nbsp;&nbsp;Folder in which you want the movie to be saved <br>
+<b><i>Replicate:</i></b>&nbsp;&nbsp;ReplicateNumber <br>
+<b><i>Cell type:</i></b>&nbsp;&nbsp;CellType <br>
+<b><i>Well:</i></b>&nbsp;&nbsp;well<br>
+<b><i>Position number:</i></b>&nbsp;&nbsp;ImagePanel <br>
+<b><i>Rolling background radius:</i></b>&nbsp;&nbsp;this is for the green channel only and allows you to set the rolling ball radius manually</p>
 
 <p>Example: <br>
 <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
