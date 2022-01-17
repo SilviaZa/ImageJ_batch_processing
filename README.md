@@ -37,15 +37,15 @@ To install the plugin:
 4. restart Fiji
    
 <br><br>
-As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br>
-<b>*input directory:*</b> Folder in which you stashed all the individual images taken by incucyte. 
+As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br><br>
+<b>*input directory:*</b>   Folder in which you stashed all the individual images taken by incucyte. 
 *Please have all images from all channels corresponding to the same movie in the same folder!* <br>
-<b>*output directory:*</b> Folder in which you want the movie to be saved <br>
-<b>*Replicate:*</b> ReplicateNumber <br>
-<b>*Cell type:*</b> CellType <br>
-<b>*Well:*</b> well<br>
-<b>*Position number:*</b> ImagePanel <br>
-<b>*Rolling background radius:*</b> this is for the green channel only and allows you to set the rolling ball radius manually<br>
+<b>*output directory:*</b>   Folder in which you want the movie to be saved <br>
+<b>*Replicate:*</b>   ReplicateNumber <br>
+<b>*Cell type:*</b>    CellType <br>
+<b>*Well:*</b>   well<br>
+<b>*Position number:*</b>   ImagePanel <br>
+<b>*Rolling background radius:*</b>    this is for the green channel only and allows you to set the rolling ball radius manually<br>
 
 Example: <br>
 <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
