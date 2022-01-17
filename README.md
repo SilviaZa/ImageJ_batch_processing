@@ -29,7 +29,7 @@ Here's a practical example:
 R2_MDF_green_B2_1_00d00h00m.tif
 
 <br><br>
-<strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! <strong/> <br>  
+<strong> ! BEFORE YOU RUN THE MACRO YOU NEED TO INSTALL A PLUGIN ! </strong> <br>  
 To install the plugin:
 1. go to Help > Update in Fiji
 2. Click 'Manage update sites'
@@ -38,14 +38,14 @@ To install the plugin:
    
 <br><br>
 As USER INPUT you give information on the pattern of how your images are called (see instructions abaove).<br>
-<b>*input directory:*<b/> Folder in which you stashed all the individual images taken by incucyte. 
+<b>*input directory:*</b> Folder in which you stashed all the individual images taken by incucyte. 
 *Please have all images from all channels corresponding to the same movie in the same folder!* <br>
-<b>*output directory:*<b> Folder in which you want the movie to be saved <br>
-<b>*Replicate:*<b> ReplicateNumber <br>
-<b>*Cell type:*<b> CellType <br>
-<b>*Well:*<b> well<br>
-<b>*Position number:*<b> ImagePanel <br>
-<b>*Rolling background radius:*<b> this is for the green channel only and allows you to set the rolling ball radius manually<br>
+<b>*output directory:*</b> Folder in which you want the movie to be saved <br>
+<b>*Replicate:*</b> ReplicateNumber <br>
+<b>*Cell type:*</b> CellType <br>
+<b>*Well:*</b> well<br>
+<b>*Position number:*</b> ImagePanel <br>
+<b>*Rolling background radius:*</b> this is for the green channel only and allows you to set the rolling ball radius manually<br>
 
 Example: <br>
 <img width="291" alt="Capture" src="https://user-images.githubusercontent.com/87492099/149831113-2f0993aa-4f4f-4e47-9b2b-ac22b0fb894c.PNG">
