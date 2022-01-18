@@ -64,21 +64,17 @@ dir_in = dir_in+"\\"
 	
 	//merge channels
 	run("Merge Channels...", "c1="+rep+"_"+cellt+"_red_"+well+"_"+img+" c2="+rep+"_"+cellt+"_green_"+well+"_"+img+" c4="+rep+"_"+cellt+"_phase_"+well+"_"+img+" create");
-	rename(cellt+"_TSZ_"+well+"_Tile_"+img);
+	rename(cellt+"_proc_"+well+"_Tile_"+img);
 
 // convert z to t (make the stack a movie)
-selectWindow(cellt+"_TSZ_"+well+"_Tile_"+img);
+selectWindow(cellt+"_proc_"+well+"_Tile_"+img);
 
 slices = nSlices/3
 run("Properties...", "channels=3 slices=1 frames="+slices+" pixel_width=1.0000 pixel_height=1.0000 voxel_depth=1.0000");
 
 run("Linear Stack Alignment with SIFT MultiChannel", "registration_channel=3 initial_gaussian_blur=1 steps_per_scale_octave=3 minimum_image_size=64 maximum_image_size=1410 feature_descriptor_size=4 feature_descriptor_orientation_bins=8 closest/next_closest_ratio=0.92 maximal_alignment_error=25 inlier_ratio=0.05 expected_transformation=Similarity interpolate");
 
-if (cellt.contains("HT")){
-		saveAs("Tiff", dir_out+"/"+cellt+"_TSZ_"+well+"_Tile_"+img+".tif");
-	} else {
-		saveAs("Tiff", dir_out+"/"+cellt+"_TZ_"+well+"_Tile_"+img+".tif");
-		}
+saveAs("Tiff", dir_out+"/"+rep+"_"+cellt+"_"+well+"_Tile_"+img+".tif");
 
 run("Close All");
 print("Done :) keep up the good work!");
