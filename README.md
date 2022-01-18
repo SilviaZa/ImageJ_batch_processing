@@ -20,8 +20,8 @@ HOW TO:
 
 # Processing Incucyte images into a movie
 
-<p>This macro works super well to take images from our favourite machine and align them into a beautiful movie.
-To use it, I recommend exporting all the Incucyte images with the following name strucure:</p>
+<p>This macro works super well to take images from our favourite machine and align them into a beautiful movie.  
+To use it, I export all images with the following name structure:</p>
 
 <p>ReplicateNumber_CellType_channel_well_ImagePanel_timepoint.tif&nbsp;&nbsp;;(ImagePanel is used as the number of the image that was taken in the well)</p>
 
