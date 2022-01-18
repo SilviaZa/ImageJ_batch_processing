@@ -81,7 +81,7 @@ if (cellt.contains("HT")){
 		}
 
 run("Close All");
-print("Done :) you look gorgeous btw");
+print("Done :) keep up the good work!");
 
 
 
